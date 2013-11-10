@@ -16,13 +16,7 @@ function context(req, res) {
 module.exports = context;
 
 //
-//describe('ctx.secure', function(){
-//  it('should return true when encrypted', function(){
-//    var ctx = context();
-//    ctx.req.socket = { encrypted: true };
-//    ctx.secure.should.be.true;
-//  })
-//})
+
 //
 //describe('ctx.host', function(){
 //  it('should return host void of port', function(){
