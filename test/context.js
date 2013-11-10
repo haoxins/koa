@@ -18,34 +18,7 @@ module.exports = context;
 //
 
 //
-//describe('ctx.host', function(){
-//  it('should return host void of port', function(){
-//    var ctx = context();
-//    ctx.header.host = 'foo.com:3000';
-//    ctx.host.should.equal('foo.com');
-//  })
-//
-//  describe('when X-Forwarded-Host is present', function(){
-//    describe('and proxy is not trusted', function(){
-//      it('should be ignored', function(){
-//        var ctx = context();
-//        ctx.header['x-forwarded-host'] = 'bar.com';
-//        ctx.header['host'] = 'foo.com';
-//        ctx.host.should.equal('foo.com')
-//      })
-//    })
-//
-//    describe('and proxy is trusted', function(){
-//      it('should be used', function(){
-//        var ctx = context();
-//        ctx.app.proxy = true;
-//        ctx.header['x-forwarded-host'] = 'bar.com, baz.com';
-//        ctx.header['host'] = 'foo.com';
-//        ctx.host.should.equal('bar.com')
-//      })
-//    })
-//  })
-//})
+
 //
 //describe('ctx.status=', function(){
 //  describe('when a status string', function(){
