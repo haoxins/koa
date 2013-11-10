@@ -15,46 +15,6 @@ function context(req, res) {
 
 module.exports = context;
 
-
-//
-//describe('ctx.protocol', function(){
-//  describe('when encrypted', function(){
-//    it('should return "https"', function(){
-//      var ctx = context();
-//      ctx.req.socket = { encrypted: true };
-//      ctx.protocol.should.equal('https');
-//    })
-//  })
-//
-//  describe('when unencrypted', function(){
-//    it('should return "http"', function(){
-//      var ctx = context();
-//      ctx.req.socket = {};
-//      ctx.protocol.should.equal('http');
-//    })
-//  })
-//
-//  describe('when X-Forwarded-Proto is set', function(){
-//    describe('and proxy is trusted', function(){
-//      it('should be used', function(){
-//        var ctx = context();
-//        ctx.app.proxy = true;
-//        ctx.req.socket = {};
-//        ctx.header['x-forwarded-proto'] = 'https, http';
-//        ctx.protocol.should.equal('https');
-//      })
-//    })
-//
-//    describe('and proxy is not trusted', function(){
-//      it('should not be used', function(){
-//        var ctx = context();
-//        ctx.req.socket = {};
-//        ctx.header['x-forwarded-proto'] = 'https, http';
-//        ctx.protocol.should.equal('http');
-//      })
-//    })
-//  })
-//})
 //
 //describe('ctx.secure', function(){
 //  it('should return true when encrypted', function(){
