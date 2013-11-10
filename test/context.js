@@ -15,47 +15,7 @@ function context(req, res) {
 
 module.exports = context;
 
-//
-//describe('ctx.length', function(){
-//  describe('when Content-Length is defined', function(){
-//    it('should return a number', function(){
-//      var ctx = context();
-//      ctx.header['content-length'] = '120';
-//      ctx.length.should.equal(120);
-//    })
-//  })
-//})
-//
-//describe('ctx.responseLength', function(){
-//  describe('when Content-Length is defined', function(){
-//    it('should return a number', function(){
-//      var ctx = context();
-//      ctx.set('Content-Length', '1024');
-//      ctx.responseLength.should.equal(1024);
-//    })
-//  })
-//
-//  describe('when Content-Length is not defined', function(){
-//    describe('and a .body is set', function(){
-//      it('should return a number', function(){
-//        var ctx = context();
-//
-//        ctx.body = 'foo';
-//        ctx.responseLength.should.equal(3);
-//
-//        ctx.body = new Buffer('foo');
-//        ctx.responseLength.should.equal(3);
-//      })
-//    })
-//
-//    describe('and .body is not', function(){
-//      it('should return undefined', function(){
-//        var ctx = context();
-//        assert(null == ctx.responseLength);
-//      })
-//    })
-//  })
-//})
+
 //
 //describe('ctx.header', function(){
 //  it('should return the request header object', function(){
