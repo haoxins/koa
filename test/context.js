@@ -17,13 +17,6 @@ module.exports = context;
 
 
 //
-//describe('ctx.header', function(){
-//  it('should return the request header object', function(){
-//    var ctx = context();
-//    ctx.header.should.equal(ctx.req.headers);
-//  })
-//})
-//
 //describe('ctx.protocol', function(){
 //  describe('when encrypted', function(){
 //    it('should return "https"', function(){
